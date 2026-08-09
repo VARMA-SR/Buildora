@@ -229,7 +229,7 @@ export default function Home() {
             filter: 'contrast(1.05) brightness(1.02) saturate(1.05)'
           }}
         >
-          <source src="/hero-video.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}hero-video.mp4`} type="video/mp4" />
         </video>
         <div style={{
           position: 'absolute',
